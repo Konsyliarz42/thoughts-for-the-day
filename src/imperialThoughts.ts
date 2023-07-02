@@ -1,4 +1,34 @@
-const thoughts_a = [
+interface ImperialThoughts {
+  a: string[];
+  b: string[];
+  c: string[];
+  d: string[];
+  e: string[];
+  f: string[];
+  g: string[];
+  h: string[];
+  i: string[];
+  j: string[];
+  k: string[];
+  l: string[];
+  m: string[];
+  n: string[];
+  o: string[];
+  p: string[];
+  q: string[];
+  r: string[];
+  s: string[];
+  t: string[];
+  v: string[];
+  u: string[];
+  w: string[];
+  x: string[];
+  y: string[];
+  z: string[];
+}
+
+const imperialThoughts: ImperialThoughts = {
+  a: [
     "A broad mind lacks focus.",
     "A coward always seeks compromise.",
     "A coward`s only reward is to live in fear another day.",
@@ -35,9 +65,8 @@ const thoughts_a = [
     "Analysis is the bane of conviction.",
     "Appeasement is a curse.",
     "As the mind to the body so the soul to the spirit, as death to the mortal man so failure to the immortal, such is the price of all ambition.",
-]
-
-const thoughts_b = [
+  ],
+  b: [
     "Be courageous and bold, be humble before your masters, lead with valour! These things above all others will be of use when your time comes to die.",
     "Be grateful of your Master's favour!",
     "Be Pure.",
@@ -56,9 +85,8 @@ const thoughts_b = [
     "Burn the Unclean with the fires of Purity.",
     "By the manner of our death are we judged.",
     "By the manner of their death we shall know them.",
-]
-
-const thoughts_c = [
+  ],
+  c: [
     "Call no man happy until he is dead.",
     "Carry the Emperor's will as your torch, with it destroy the shadows.",
     "Cast out the mutant, the traitor, the heretic. For every enemy without there are a hundred within.",
@@ -71,10 +99,8 @@ const thoughts_c = [
     "Courage is the Emperor`s gift: repay him with victory.",
     "Courage is the mastery of fear - not the absence of fear.",
     "Curse now the death in vain.",
-]
-
-
-const thoughts_d = [
+  ],
+  d: [
     "Damnation is eternal.",
     "Dark dreams lie upon the heart.",
     "Death brings its own reward.",
@@ -92,9 +118,8 @@ const thoughts_d = [
     "Doubt is a sign of weakness.",
     "Drink deep of victory and remember the fallen.",
     "Duty prevails.",
-]
-
-const thoughts_e = [
+  ],
+  e: [
     "Enlightenment is a myth we do not need to understand in order to hate.",
     "Even a man who has nothing can still offer his life.",
     "Even though you once called him friend, the Traitor has forsaken you. Show no mercy even if he begs it, for his soul is tainted and given the chance he will betray your trust.",
@@ -104,9 +129,8 @@ const thoughts_e = [
     "Examine your thoughts!",
     "Excuses are the refuge of the weak.",
     "Exist for the Emperor.",
-]
-
-const thoughts_f = [
+  ],
+  f: [
     "Facts are chains that bind perception and fetter truth. For a man can remake the world if he has a dream and no facts to cloud his mind.",
     "Faith grows from the barrel of a gun.",
     "Faith, Hate and Ignorance.",
@@ -128,13 +152,9 @@ const thoughts_f = [
     "For those who seek perfection there can be no rest this side of the grave.",
     "Forgiveness is a sign of weakness.",
     "Forward Brothers, with loyalty to victory and glory!",
-]
-
-const thoughts_g = [
-    "Glory in death is life Eternal.",
-]
-
-const thoughts_h = [
+  ],
+  g: ["Glory in death is life Eternal."],
+  h: [
     "Happiness is a delusion of the weak.",
     "Hard work conquers everything.",
     "Hate enriches.",
@@ -155,9 +175,8 @@ const thoughts_h = [
     "Hope is the beginning of unhappiness.",
     "Hope is the first step on the road to disappointment.",
     "Humanity is an ocean; if a few drops of the ocean are polluted then the ocean is tainted.",
-]
-
-const thoughts_i = [
+  ],
+  i: [
     "If a job's worth doing it's worth dying for!",
     "If a man dies that another should live, that man's spirit shall eat at the Emperor's table.",
     "If you cannot speak well of your Master, be silent!",
@@ -180,12 +199,10 @@ const thoughts_i = [
     "It is not in my mind to ask questions that cannot be answered. That is the soul standing upon the crossroad of vacillation. You search for wisdom, but achieve only a stasis of will.",
     "It is not the Horror of War that troubles me but the Unseen Horrors of Peace.",
     "It is the bitter tears that the Gods weep that bind us to their hearts.",
-    "It is through the Destruction of our Enemies, that we Earn our Salvation."
-]
-
-const thoughts_j = []
-
-const thoughts_k = [
+    "It is through the Destruction of our Enemies, that we Earn our Salvation.",
+  ],
+  j: [],
+  k: [
     "Kill the mutant.",
     "Know No Fear.",
     "Know the mutant; kill the mutant.",
@@ -195,9 +212,8 @@ const thoughts_k = [
     "Knowledge is to be feared!",
     "Know your destination before you set out.",
     "Know your duty!",
-]
-
-const thoughts_l = [
+  ],
+  l: [
     "Labour long in his sight.",
     "Leniency is a sign of weakness!",
     "Let faith protect your mind and metal your flesh.",
@@ -209,16 +225,14 @@ const thoughts_l = [
     "Look to your wargear!",
     "Look upon the Emperor's Works and tremble!",
     "Losses are acceptable. Failure is not.",
-]
-
-const thoughts_m = [
+  ],
+  m: [
     "Mankind stands on the shoulders of the Martyred.",
     "May the Emperor's Wrath forever cleanse our souls.",
     "Mercy is a sign of weakness.",
     "My armour is contempt.",
-]
-
-const thoughts_n = [
+  ],
+  n: [
     "Negotiation is surrender",
     "Never forget, never forgive.",
     "No army is big enough to conquer the galaxy. But faith alone can overturn the universe.",
@@ -231,9 +245,8 @@ const thoughts_n = [
     "Not Even The Dead Know The End Of War.",
     "Nothing Can Hide From The Wrath Of The Emperor.",
     "Nothing inspires revenge quite like cold hearted hatred.",
-]
-
-const thoughts_o = [
+  ],
+  o: [
     "Obedience is blind.",
     "Obedience is not enough.",
     "Official! The graves of wariors who have given their lives for the Emperor now outnumber the stars themselves.",
@@ -250,9 +263,8 @@ const thoughts_o = [
     "Our mercies destroys us.",
     "Our presence remakes the past.",
     "Over the faithful, fear has no dominion.",
-]
-
-const thoughts_p = [
+  ],
+  p: [
     "Pain is an illusion caused by fear.",
     "Pain is an illusion of the senses, despair is an illusion of the mind.",
     "Peace is Hell.",
@@ -265,20 +277,17 @@ const thoughts_p = [
     "Pure in body, pure in heart.",
     "Purge the unclean.",
     "Purge those who are unclean.",
-]
-
-const thoughts_q = []
-
-const thoughts_r = [
+  ],
+  q: [],
+  r: [
     "Reach out to embrace the glories that will come.",
     "Reason begets doubt; Doubt begets heresy.",
     "Reason is the cloak of Traitors.",
     "Rejoice in service!",
     "Revere the Omnissiah, for it is the source of all power.",
     "Ruthlessness is the kindness of the wise.",
-]
-
-const thoughts_s = [
+  ],
+  s: [
     "Save & Destroy.",
     "Seek no reward but the satisfaction of your Master!",
     "Seek honour as you act, and you will know no fear.",
@@ -294,9 +303,8 @@ const thoughts_s = [
     "Success is commemorated. Failure merely remembered.",
     "Success is measured in blood; yours or your enemy's.",
     "Survival is no birthright, but a prize wrested from an uncaring galaxy by forgotten heroes.",
-]
-
-const thoughts_t = [
+  ],
+  t: [
     "The Age of Battle has begun. The fires of war burn brightly from star to star. Everywhere the fortresses of Man are steeped in blood and ancient enemies appear from the darkness. Sensing weakness they gather for the kill. They know as we know that night approaches and all mortal life shall be extinguished. We know, as they cannot, that there shall be a new dawn and a new day when we will rise and they will be driven into the darkness forever.",
     "The Alien dream is to dance on the grave of Mankind.",
     "The Alien fails because it cannot embrace the Emperor.",
@@ -404,18 +412,17 @@ const thoughts_t = [
     "True faith is blind and justified.",
     "True happiness stems only from duty.",
     "Truth begets hatred.",
-    "Trying to understand weakens the will to act."
-]
-
-const thoughts_v = [
+    "Trying to understand weakens the will to act.",
+  ],
+  v: [
     "Vengeance is your sword. Hatred is your shield. Loyalty is your Armour.",
     "Victory needs no explanation, defeat allows none.",
     "Victory through superior firepower.",
     "Vigilance is the brother of truth.",
     "Vigilance is your shield.",
-]
-
-const thoughts_w = [
+  ],
+  u: [],
+  w: [
     "Watch for the Mutant.",
     "We are all a weapon in the hands of the Emperor.",
     "We are bound by the blood of Martyrs.",
@@ -433,38 +440,34 @@ const thoughts_w = [
     "Wisdom is the beginning of fear.",
     "Without Him there is nothing.",
     "Words do not win wars. Deeds do.",
-    "Work earns salvation."
-]
-
-const thoughts_x = []
-
-const thoughts_y = [
+    "Work earns salvation.",
+  ],
+  x: [],
+  y: [
     "You are either for the Emperor or you are his bitter foe.",
     "You are not required to think, only to act.",
     "You are the Emperor's Chosen. Hear His great anger in the roar of the bolt pistol. See His almighty fury in the blades of the chainsword. Feel His undying strength in the protection of your armour.",
     "You carry the Emperor's will as your torch. With it destroy the shadows.",
     "Your freedom must be bought in the currency of toil, tears and blood; a price all men can pay.",
     "Your honour is your life. Let none dispute it.",
-]
+  ],
+  z: ["Zeal is its own excuse."],
+};
 
-const thoughts_z = [
-    "Zeal is its own excuse.",
-]
+function _getRandomThought(): string {
+  const getRandomNumber = (maxValues: number) => {
+    return Math.floor(Math.random() * maxValues);
+  };
 
-const all_thoughts = thoughts_a.concat(
-    thoughts_b, thoughts_c, thoughts_d,
-    thoughts_e, thoughts_f, thoughts_g,
-    thoughts_h, thoughts_i, thoughts_j,
-    thoughts_k, thoughts_l, thoughts_m,
-    thoughts_n, thoughts_o, thoughts_p,
-    thoughts_q, thoughts_r, thoughts_s,
-    thoughts_t, thoughts_v, thoughts_w,
-    thoughts_x, thoughts_y, thoughts_z
-)
+  const allLetters = Object.keys(imperialThoughts);
+  const letter = allLetters[getRandomNumber(allLetters.length)];
+  const allRows = Object(imperialThoughts)[letter].length;
 
-function get_random_thought() {
-    const index = Math.floor(Math.random() * all_thoughts.length)
-    return all_thoughts[index]
+  return Object(imperialThoughts)[letter][getRandomNumber(allRows)];
 }
 
-export default get_random_thought;
+export function getRandomThought(): string {
+  let thought: string = "";
+  while (!thought) thought = _getRandomThought();
+  return thought;
+}

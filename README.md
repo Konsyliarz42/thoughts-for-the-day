@@ -1,35 +1,37 @@
-# Thoughts for the day
+# Thoughts for today
 
-## *In The Grim Darkness of the Far Future There is Only War*
+_In the grim darkness of the far future there is only war._
 
-This is my **first** project in React.  
-After hosted my app you will see:
+This is my first project in React.
 
-![Imperial Thoughts For The Day](image.jpg)
+![demo](./demo.gif)
 
-## Simplest way to host
+## How to use
 
-On the first you have to build project with:
+1. Install the dependencies
+   ```bash
+   npm install
+   ```
+2. Build the project
+   ```bash
+   npm run build
+   ```
+3. Host the application
+   ```bash
+   npm run start
+   ```
 
-```bash
-npm install
-npm run build
-```
+## Details
 
-Next install globally [serve](https://github.com/vercel/serve)
+### Thoughts
 
-```bash
-npm install --global serve
-```
+Each thought has a different length, so each thought has its own time to read. It is dynamically calculated for each text.
 
-and just serve:
+### Page mode
 
-```bash
- serve -s build -l <address>
-```
+In the lower right corner of the window there is a small icon.  
+It is a toggle button with three states:
 
-For example:
-
-```bash
- serve -s build -l tcp://0.0.0.0:4000
-```
+1. Circle - highlight mode
+2. Half-filled circle - automatic mode
+3. Filled circle - dark mode
