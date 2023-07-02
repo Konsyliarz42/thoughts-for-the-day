@@ -3,8 +3,8 @@ import React from "react";
 import { getRandomThought } from "@/imperialThoughts";
 import { wait } from "@/wait";
 
-const letterPerMs = 126
-const thoughtTransitionMs = 2000
+const letterPerMs = 126;
+const thoughtTransitionMs = 2000;
 
 export function Thought(): JSX.Element {
   const [thought, setThought] = React.useState<string>("");

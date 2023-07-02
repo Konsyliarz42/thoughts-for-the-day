@@ -467,7 +467,7 @@ function _getRandomThought(): string {
 }
 
 export function getRandomThought(): string {
-  let thought: string = "";
+  let thought = "";
   while (!thought) thought = _getRandomThought();
   return thought;
 }
