@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "CaslonAntique";
+  src: local("CaslonAntique"), url("./CaslonAntique.ttf") format("truetype");
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: "CaslonAntique";
+  text-align: center;
+}
+
+h1 {
+  font-size: 6em;
+  padding: 2em 0 1em 0;
+}
+
+h2 {
+  font-size: 3em;
+  transition: opacity 1900ms;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 8em;
+}
+
+.switch-button {
+  border: none;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 0.125;
+}
+
+.page-box {
+  height: 100%;
+  transition: all 1000ms;
+}
+
+.page-box > * {
+  transition: all 1000ms;
+}
+
+#__next {
+  height: 100vh;
+}

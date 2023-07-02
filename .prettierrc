@@ -1,0 +1,14 @@
+{
+  "printWidth": 96,
+  "tabWidth": 2,
+  "importOrder": [
+    "^@styles/(.*)$",
+    "^@public/(.*)$",
+    "^@pages/(.*)$",
+    "^@/(.*)$",
+    "^@components/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
