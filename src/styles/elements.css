@@ -1,0 +1,21 @@
+h1,
+h2 {
+  margin: 0;
+  font-family: "CaslonAntique";
+  text-align: center;
+}
+
+h1 {
+  padding: var(--padding) 0 calc(var(--padding) / 2) 0;
+  font-size: var(--title-font-size);
+}
+
+h2 {
+  padding-bottom: var(--padding);
+  transition: opacity 1900ms;
+  font-size: var(--content-font-size);
+}
+
+body {
+  margin: 0;
+}
