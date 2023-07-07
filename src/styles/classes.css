@@ -1,0 +1,28 @@
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10vw;
+}
+
+.switch-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 0.125;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.page-box {
+  overflow-y: auto;
+  height: 100%;
+  transition: all 1000ms;
+}
+
+.page-box > * {
+  transition: all 1000ms;
+}
